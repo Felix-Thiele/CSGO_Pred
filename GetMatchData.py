@@ -140,5 +140,3 @@ def collect_detailed_stats(link):
     kill_matrices = [kill_m_all_df, kill_m_first_df, kill_m_awp_df]
 
     return stat_tables, map, box_info, kill_matrices
-
-collect_detailed_stats("https://www.hltv.org/stats/matches/mapstatsid/85758/ence-vs-astralis")

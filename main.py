@@ -1,7 +1,7 @@
 from CollectData import collect_all, update
 
 
-task = "update"
+task = "download"
 
 
 if task == "download":
