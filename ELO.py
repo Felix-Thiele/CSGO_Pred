@@ -102,5 +102,3 @@ def calc_elo(db_name, K=0.04):
         pickle.dump(NN_train_data_X, f)
     with open('train_Y.pkl', 'wb') as f:
         pickle.dump(NN_train_data_Y, f)
-
-calc_elo("CSGO_Games")
